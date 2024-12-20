@@ -70,13 +70,14 @@
         <p>Schauen sie sich die Kette ganz genau an – woher kommt sie?</p>
         <input type="text" id="password3" placeholder="Passwort eingeben">
         <button onclick="checkPassword(3)">Weiter</button>
+        <iframe src="https://www.youtube.com/embed/L-4zSnhPlWE" allowfullscreen></iframe>
         <p id="error-message3" class="hidden">Falsches Passwort. Ich hätte bessere Leistungen von Ihnen erwartet, Rekrut! Versuchen Sie es noch einmal!</p>
     </div>
 
     <div class="container hidden" id="page4">
         <h1>Rätsel-Adventskalender</h1>
-        <p>Herzlichen Glückwunsch! Hier ist dein Video:</p>
-        <iframe src="https://www.youtube.com/embed/ZFAy4RDMR84" allowfullscreen></iframe>
+        <p>Herzlichen Glückwunsch! Du hast es geschafft! </p>
+        <p>Gut gemacht! Hiermit gewinnst du eine Datenight, bei der ich dich auf den neuen Herr der Ringe Film einlade </p>
     </div>
 
     <script>
@@ -84,7 +85,7 @@
             const passwords = {
                 1: "Ring",
                 2: "2mZd",
-                3: "Arenal"
+                3: "CerroNegro"
             };
 
             const userInput = document.getElementById(`password${page}`).value;
